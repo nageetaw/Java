@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Mp3Player.jnlp">
+  <information>
+    <title>Mp3Player</title>
+    <vendor>nigeetawadhwani</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Mp3Player.jar" size="11497" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="mp3player.Mp3Player"  name="Mp3Player" />
+  <update check="always"/>
+</jnlp>
